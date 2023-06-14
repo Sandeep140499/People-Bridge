@@ -1,0 +1,481 @@
+*{
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+.navbarheading{
+    font-weight: 400;
+    color: #494c64;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    transition: color 0.3s,background-color 0.3s;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.centered2 {
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    /* transform: translate(-20%, -10%); */
+  }
+  .imagestext{
+
+  }
+
+.color12columb{
+    background-color: #fff;
+}
+.ourservices{
+    font-size: 52px;
+    color: #3c3950;
+}
+.ourworkproduct{
+    background-image: url(./Images/our-work-process-back.jpg);
+}
+.colorCode{
+    color: #fff;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
+}
+/* section two start here */
+/* .bi-circle:hover{
+    background-color: #212331;
+} */
+
+
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .titleSectionTwo
+  {
+    margin:0px;
+    font-size:1.4em;
+    font-weight:700;
+  }
+  
+  .titleSectionThree
+  {
+    font-size:12px;
+  }
+  
+  .centerd
+  {
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .property-card
+  {
+    height:18em;
+    width: 22em !important;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+    position:relative;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    /* border-radius:16px; */
+    overflow:hidden;
+    /* -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
+    /* box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff; */
+  }
+  .property-image
+  {
+    height:8em;
+    width:22em !important;
+    padding:1em 2em;
+    position:Absolute;
+    top:0px;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  .fontsizeSection3{
+    font-size: 16px;
+    /* line-height: 38px; */
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
+    color: #4c5867;
+    text-transform: uppercase;
+  }
+  .fontSizeDesignFonts {
+    font-size: 20px;
+    /* line-height: 38px; */
+    font-weight: 700;
+    font-family: 'Montserrat UltraLight';
+  }
+  .property-description
+  {
+    background-color: #FAFAFC;
+    height:12em;
+    width: 22em !important;
+    position:absolute;
+    bottom:0em;
+    -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 0.5em 1em;
+    text-align:center;
+    /* font-size: 22px; */
+  }
+
+  
+  .property-card:hover .property-description
+  {
+    height:0em;
+    padding:0px 1em;
+  }
+  .property-card:hover .property-image
+  {
+    height:18em;
+  }
+  
+  .property-card:hover .property-social-icons
+  {
+    background-color:white;
+  }
+  
+  .property-card:hover .property-social-icons:hover
+  {
+    background-color:blue;
+    cursor:pointer;
+  }
+  
+/* section two end here */
+.colorCodeParagraph{
+    color: #5f727f;
+    font-size: 16px;
+}
+.fontsizeforourwork{
+    font-size: 60px;
+}
+.backroungyellow{
+    background-color: #eeee22;
+    margin-left: 90px;
+}
+.fontsizecallthe{
+    font-size: 48px;
+    color: #5f727f;
+}
+.fontsizecallthe{
+    font-size: 48px;
+    /* color: yellow; */
+}
+.navsecond{
+    margin-left: 220px;
+    padding: 11px;
+}
+.navsecond{
+    color: #3c3950;
+    background-color: #ffdf48;
+    border-radius: 49px;
+    font-size: 18px; 
+}
+
+.provideSpacefromtop{
+    padding-top: 103px;
+}
+.cards3loadmorebutton{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 25px;
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3c3950 !important;
+}
+.loadmoresubmitt{
+     /* color: #fff; */
+}
+.loadmoresubmitt{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 25px;
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3c3950 !important;
+}
+/* 4 transtions cards start here */
+figure {
+    display: grid;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  figure > * {
+    grid-area: 1/1;
+    transition: .4s;
+  }
+  figure figcaption {
+    display: grid;
+    align-items: end;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0000;
+    padding: .75rem;
+    background: var(--c,rgba(0, 0, 0, 0.6));
+    clip-path: inset(0 var(--_i,100%) 0 0);
+    -webkit-mask:
+      linear-gradient(#000 0 0),
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    -webkit-mask-clip: text, padding-box;
+    margin: -1px;
+  }
+  figure:hover figcaption{
+    --_i: 0%;
+  }
+  figure:hover img {
+    transform: scale(1.2);
+  }
+
+/* 4 transtions cards end here */
+/* blogs start cards trasnsitions */
+articless {
+    --img-scale: 1.001;
+    --title-color: black;
+    --link-icon-translate: -20px;
+    --link-icon-opacity: 0;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+  }
+  
+  articless a::after {
+    position: absolute;
+    inset-block: 0;
+    inset-inline: 0;
+    cursor: pointer;
+    content: "";
+  }
+  
+  /* basic article elements styling */
+  articless h2 {
+    margin: 0 0 18px 0;
+    /* font-family: "Bebas Neue", cursive; */
+    font-size: 1.9rem;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    transition: color 0.3s ease-out;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    /* aspect-ratio: 16 / 9; */
+    overflow: hidden;
+  }
+  
+  articless img {
+    max-width: 100%;
+    transform-origin: center;
+    transform: scale(var(--img-scale));
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .articless-body {
+    padding: 24px;
+  }
+  
+  articless a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #28666e;
+  }
+  
+  articless a:focus {
+    outline: 1px dotted #28666e;
+  }
+  
+  articless a .icon {
+    min-width: 24px;
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    transform: translateX(var(--link-icon-translate));
+    opacity: var(--link-icon-opacity);
+    transition: all 0.3s;
+  }
+  
+  /* using the has() relational pseudo selector to update our custom properties */
+  articless:has(:hover, :focus) {
+    --img-scale: 1.1;
+    --title-color: #28666e;
+    --link-icon-translate: 0;
+    --link-icon-opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+ 
+  
+  .articlesss {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+/* blogs here cards trasnsitions */
+.readmorebutton:hover{
+    color: gray;
+    cursor: pointer;
+}
+.whywechoosebackground{
+    background-image: url(./Images/test.png);
+}
+.colorwhyewechooseus{
+    color: #fff;
+    font-size: 4rem;
+}
+/* blogs cards start here */
+.cardsback3groundcolor{
+    /* background-color: #5f727f; */
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro';
+    background-color: #212331;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+/* } */
+/* blogs cards end here */
+/* why er choose us avtar images start here */
+.personal-image {
+    text-align: center;
+  }
+  .personal-image input[type="file"] {
+    display: none;
+  }
+  .personal-figure {
+    position: relative;
+    width: 120px;
+    height: 120px;
+  }
+  .personal-avatar {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out .3s;
+  }
+  .personal-avatar:hover {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  .personal-figcaption {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    border-radius: 100%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all ease-in-out .3s;
+  }
+  .personal-figcaption:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, .5);
+  }
+  .personal-figcaption > img {
+    margin-top: 32.5px;
+    width: 50px;
+    height: 50px;
+  }
+  .whiteColor{
+    color: #fff;
+  }
+  .graycolor{
+    color: #99a9b5;
+  }
+  .bluebackgroundcolor{
+    background-color: #00bcd4;
+  }
+  .blurColor{
+    color: #00bcd4;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 14px;
+  }
+/* why er choose us avtar images end here */
+
+/* form start here  */
+.formplaceholdercolors{   
+    border: 1px solid #394050;
+    background-color: #181828 !important;
+    color: #5f727f;
+}
+.formblurColor{
+    background-color: #00bcd4;
+}
+/* form end here  */
+/* footer start here */
+.footercolorformblurColor{
+    background-color: #181828 !important;
+    color: white;
+}
+/* footer end here */
+
+.fontsizefooter{
+    font-size: 20px;
+}
+.buttonradius{
+    border-radius: 49%;
+}
+.stickytwo{
+    position: fixed;
+    bottom: 0px;
+}
+.hrfooter{ 
+    border:         none;
+    border-left:    1px soli;
+    height:         20px;
+    width:          1px;       
+}
+
+/* media quries start here */
+@media only screen and (max-width: 768px) {
+   .navbarheading  {
+    padding: 7px;
+                  }
+
+ }
+   
