@@ -16,27 +16,27 @@
 
 
   <!-- NAVBAR START FROM HERE  -->
-  <nav class="navbar bg-body-tertiary ">
- <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-2">
+
+  <nav class=" bg-body-tertiary  ">
+    <div class="row margininnavbar">
+      <div class="col-12 col-lg-2 text-center responsiveMargins pt-lg-2">
         <a class="navbar-brand" href="#">
           <img src="./Images/logo_db9366b42e270fe8e6ca6e7b3a0f4626_1x.png" alt="Bootstrap" width="150" height="54">
         </a>
       </div>
-      <div class="col-12 col-lg-10">
+      <div class="col-12 col-lg-10 text-center">
         <nav class="navbar navbar-expand-lg bg-body-tertiary navbarheading bs p-0">
-          <div class="container-fluid">
+          <div class="container margininnavbar responsivenavbar mt-2 mb-3">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse navbarmargin text" id="navbarSupportedContent">
               <ul class="navbar-nav mb-2">
                   <li class="nav-item">
-                      <a class="nav-link active p-lg-4" aria-current="page" href="#">HOME</a>
+                      <a class="nav-link active p-lg-4" aria-current="page" href="#Home">HOME</a>
                     </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link active toggle p-lg-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link active toggle p-lg-4" href="#ourServices" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     SERVICES
                   </a>
                   <ul class="dropdown-menu">
@@ -62,13 +62,13 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active p-lg-4" aria-current="page" href="#">OUR WORK</a>
+                  <a class="nav-link active p-lg-4" aria-current="page" href="#ourWok">OUR WORK</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active p-lg-4" aria-current="page" href="#">BLOG</a>
+                  <a class="nav-link active p-lg-4" aria-current="page" href="#blogs">BLOG</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link active toggle p-lg-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link active toggle p-lg-4" href="#aboutUs" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     ABOUT US
                   </a>
                   <ul class="dropdown-menu">
@@ -79,12 +79,12 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active p-lg-4" aria-current="page" href="#">CONTACT US</a>
+                  <a class="nav-link active p-lg-4" aria-current="page" href="#ContactUs">CONTACT US</a>
                 </li> 
               </ul>
-              <form class="d-flex p-lg-4" role="search"> 
+              <form class="d-flex p-lg-4 " role="search"> 
                 <button class="btn" type="submit">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search " viewBox="0 0 16 16">
                   <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                 </svg>
                 </button>
@@ -97,20 +97,19 @@
       </div>
    
     </div>
- </div>
 </nav>
   <!-- NAVBAR END FROM HERE  -->
 
-      <div class="conatiner sectionSecond">
-        <img src="./Images/OIP.jpeg" class="img-fluid" alt="..." width="100%">
-        <div class=" ">
-         <h1 class="imagestext text-center centered"><b>DRIVEN BY INNOVATION</b></h1>
-        <h4 class="pt-lg-3 centered2 text-center"><p>OUR DIGITAL SUPER POWERS ARE OUR DOMINATION SKILLS IN SEARCH AND TARGETING, PAIRED WITH OUR CREATIVE BACKGROUND IN CONTENT WRITING, GRAPHICS, AND SOCIAL MEDIA MARKETING.</p></h4>
-        
-       </div>
-       
-      </div>
-      <div class="conatiner color12columb bg-light">
+     <!-- section part start here -->
+      
+      <section id="Backgorundimages" className="d-flex  ">
+          <div className="container-fluid pt-lg-5">
+            <div class="fontsizeofDriven text-center"><b>DRIVEN BY INNOVATION</b></div>
+        <div class="sectionTwoPara text-center">OUR DIGITAL SUPER POWERS ARE OUR DOMINATION SKILLS IN SEARCH AND TARGETING, PAIRED WITH OUR CREATIVE BACKGROUND IN CONTENT WRITING, GRAPHICS, AND SOCIAL MEDIA MARKETING.</div>
+          </div>
+        </section>
+     <!-- section part end here -->
+      <div class="conatiner color12columb bg-light" id="ourServices">
         <div class="p-lg-5">
             <h1 class="text-center ourservices"><b>OUR SERVICES</b></h1>
         </div>
@@ -293,25 +292,25 @@
       <!-- OUR WORK PROCESS START HERE -->
         <div class="container bg-light">
             <div class="ourworkproduct ">
-                <div class="conatiner p-lg-4 ">
-                <h1 class="text-center pt-lg-5 colorCode fontsizeforourwork"><b>OUR WORK PROCESS</b></h1>
+                <div class="conatiner p-lg-4 pt-5 " id="ourWok">
+                <h1 class="text-center pt-lg-5 colorCode "><b>OUR WORK PROCESS</b></h1>
             </div>
-            <div class="row g-0 pb-lg-5">
+            <div class="row g-0 pb-lg-5 pt-3">
                 <div class="col-12 col-lg-4 pt-lg-5 ">.col-6 .col-md-4</div>
                 <div class="col-12 col-lg-8">
-                    <div class="container overflow-hidden ">
+                    <div class="container overflow-hidden resposniveOurWork ">
                         <div class="row gy-5">
                           <div class="col-12 col-lg-12 pt-lg-5">
                             <div class="p-3">
-                                <h1 class="colorCode">RESEARCH AND BRAINSTROM</h1>
-                                <P class="pt-lg-3 colorCodeParagraph">
+                                <h1 class="colorCode fontsizeforourwork">RESEARCH AND BRAINSTROM</h1>
+                                <P class="pt-lg-3 colorCodeParagraph fontsizeforourworkParagraph">
                                     Based on our experience, we research & brainstorm with the client organization, Industry, and competition to arrive at TAM(Total available market) and figure out competition strategy.
                                 </P>
                             </div>
                           </div>
                           <div class="col-12 col-lg-12 ">
                             <div class="p-3">
-                                <h1 class="colorCode">PLANNING & STRATEGY</h1>
+                                <h1 class="colorCode fontsizeforourwork">PLANNING & STRATEGY</h1>
                                 <P class="pt-lg-3 colorCodeParagraph">
                                     We identify the windows of opportunities(low hanging fruits) and create our war plan
                                 </P>
@@ -357,41 +356,32 @@
       <!-- yellow background end here -->
 
       <!-- navbar two start here -->
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container pt-lg-5 ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse provideSpacefromtop" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 mb-lg-0 col-lg-12">
-              <li class="nav-item">
-                <a class="nav-link active bg-warning navsecond " aria-current="page" href="#">SHOW ALL</a>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pt-3 " id="navbarNavAltMarkup">
+              <div class="navbar-nav pl-lg-2 col-12 col-lg-12 navbartwopaddings p-lg-3">
+                <a class="nav-link active border navbartwopadding pt-2 text-center bg-warning " aria-current="page" href="#">SHOW ALL</a>
+                <a class="nav-link active border navbartwopadding pt-2 text-center bg-secondary " aria-current="page" href="#">SOCIAL MEDIA</a>
+                <a class="nav-link active border navbartwopadding pt-2 text-center bg-secondary " aria-current="page" href="#">LEAD GENRATION</a>
+                <a class="nav-link active border navbartwopadding pt-2 text-center bg-secondary " aria-current="page" href="#">SEO</a>
+                <a class="nav-link active border navbartwopadding pt-2 text-center bg-secondary " aria-current="page" href="#">WEB DESIGN</a>
+                <a class="nav-link active border navbartwopadding pt-2 text-center bg-secondary " aria-current="page" href="#">BRANDING</a>
 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active bg-secondary navsecond mx-lg-2" aria-current="page" href="#">SOCIAL MEDIA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active bg-secondary navsecond mx-lg-2" aria-current="page" href="#">LEAD GENERATION</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active bg-secondary navsecond mx-lg-2" aria-current="page" href="#">SEO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active bg-secondary navsecond mx-lg-2" aria-current="page" href="#">WEB DESIGN</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active bg-secondary navsecond mx-lg-2" aria-current="page" href="#">BRANDING</a>
-              </li>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <!-- navbar two end here -->
+
       <!-- transition line start here -->
       <div class="container pt-lg-5">
-        <div class="row gx-0">
+        <div class="row gx-0 responsiveMargin">
           <div class="col-lg-3 col-12">
             <figure>
               <img src="./Images/news-paper-ad-thegem-portfolio-justified.png" alt="Mountains" height="293">
@@ -421,13 +411,13 @@
       <!-- transition line end here -->
 
       <!-- load more start here -->
-      <div class="container p-lg-3">
+      <div class="container p-lg-3 p-3">
         <div class="row">
           <div class="col-12 col-lg-5">
         <hr/>
         <hr/>
           </div>
-          <div class="col-12 col-lg-2 text-center loadmoresubmitt">
+          <div class="col-12 col-lg-2 text-center border loadmoresubmitt ">
             <button type="button" class="btn loadmoresubmitted  ">Load More</button>
           </div>
           <div class="col-12 col-lg-5">
@@ -438,7 +428,7 @@
       </div>
       <!-- load more end here -->
       <!-- 3 cards at a time start here -->
-      <div class="container cardsback3groundcolor">
+      <div class="container cardsback3groundcolor"  id="blogs">
         <section class="articlesss">
           <articless>
             
@@ -527,16 +517,16 @@
           </articless>
         </section>
         
-       <div class="text-center p-lg-5 pt-lg-5 pb-lg-5 ">
-        <button type="button" class="btn btn cards3loadmorebutton loadmoresubmitt">Load More</button>
+       <div class="text-center p-lg-5 pt-lg-5 pb-lg-5 pt-5 ">
+        <button type="button" class="btn btn border cards3loadmorebutton loadmoresubmitt loadmoreblogbutton">Load More</button>
        </div>
       </div>
       <!-- 3 cards at a time end here -->
       <!-- video section start here -->
-      <div class="container whywechoosebackground pb-lg-5">
-        <h1 class="text-center colorwhyewechooseus">WHY CHOOSE US</h1>
+      <div class="container whywechoosebackground pb-lg-5" id="aboutUs">
+        <h1 class="text-center colorwhyewechooseus pt-4 p-1">WHY CHOOSE US</h1>
         <div class="row gx-0">
-            <div class="col-12 col-lg-6 pt-lg-5">
+            <div class="col-12 col-lg-6 pt-lg-5 pt-3 ">
               <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -624,9 +614,9 @@
               </div>
                 
             </div>
-            <div class="col-12 col-lg-6 pt-lg-5">
-                <div class="border">
-                  <iframe width="100%" height="315"
+            <div class="col-12 col-lg-6 pt-lg-5 pb-3 pt-3">
+                <div class="border ">
+                  <iframe width="100%" height="315" class="videoframe"
 src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
 </iframe>
                 </div>
@@ -636,29 +626,29 @@ src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
       <!-- video section end here -->
 
       <!-- form start here  -->
-      <form>
-      <div class="container mt-lg-5 formblurColor pb-lg-5" >
+      <form class="pt-3" id="ContactUs">
+      <div class="container mt-lg-5 formblurColor pb-lg-5 p-3" >
         <div class="row pt-lg-5">
           <div class="col-12 col-lg-6 ">
             <input type="text" class="form-control formplaceholdercolors" placeholder="First name* " aria-label="First name*">
             
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 pt-2">
             <input type="text" class="form-control formplaceholdercolors" placeholder="Last name*" aria-label="Last name*">
           </div>
         </div>
         <div class="row pt-lg-3">
-          <div class="col-12 col-lg-6 ">
+          <div class="col-12 col-lg-6 pt-2">
             <input type="text" class="form-control formplaceholdercolors" placeholder="Wbsite*" aria-label="Wbsite*">
           </div>
-          <div class="col-12 col-lg-6 ">
+          <div class="col-12 col-lg-6 pt-2">
             <input type="text" class="form-control formplaceholdercolors" placeholder="Phone Number*" aria-label="Phone Number*">
           </div>
         </div>
-        <div class="col-12 col-lg-12 pt-lg-4">
+        <div class="col-12 col-lg-12 pt-lg-4 pt-2">
           <textarea class="form-control formplaceholdercolors" placeholder="Message*" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <div class="pt-lg-5">
+        <div class="pt-lg-5 pt-2">
           <button type="submit" class="btn bg-light border col-12 col-lg-12">SUBMIT MESSAGE</button>
         </div>
         
